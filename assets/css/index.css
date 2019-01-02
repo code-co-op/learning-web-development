@@ -38,6 +38,22 @@ hr {
     color: white;
 }
 
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#find-out-more-btn {
+    background: #a6bce0;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
 #mainHeader{
     color: white;
 }
