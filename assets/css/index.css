@@ -17,6 +17,7 @@ h1 {
 
 hr {
    width: 4%; 
+   border: 1px solid white;
 }
 
 .container{
