@@ -1,7 +1,5 @@
-/* added to check the style sheet was linking */
-
 header {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://slack-imgs.com/?c=1&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1520881363902-a0ff4e722963%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/landingBackground.jpg');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -21,17 +19,18 @@ hr {
    width: 4%; 
 }
 
-.main-header-container{
+.container{
     display: flex;
     justify-content: center;
+}
+
+.main-header-container{
     align-items: center;
     flex-wrap: wrap;
     padding-top: 15%;
 }
 
 .catch-phrase-container{
-    display:flex;
-    justify-content: center;
     text-align:center;
     margin: auto;
     width: 50%;
@@ -39,12 +38,10 @@ hr {
 }
 
 .btn-container {
-    display: flex;
-    justify-content: center;
     margin-top: 40px;
 }
 
-#find-out-more-btn {
+ #find-out-more-btn {
     background: #a6bce0;
     border: 0;
     border-radius: 10px;
