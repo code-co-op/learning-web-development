@@ -1,4 +1,61 @@
-/* added to check the style sheet was linking */
+header {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/landingBackground.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 body {
-    background-color: purple;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+hr {
+   width: 4%; 
+   border: 1px solid white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.main-header-container{
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 15%;
+}
+
+.catch-phrase-container{
+    text-align:center;
+    margin: auto;
+    width: 50%;
+    color: white;
+}
+
+.btn-container {
+    margin-top: 40px;
+}
+
+ #find-out-more-btn {
+    background: #a6bce0;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+#mainHeader{
+    color: white;
+}
+
+#catch-phrase {
+    font-family: 'Montserrat', sans-serif;
 }
