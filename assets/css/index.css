@@ -28,7 +28,7 @@ hr {
 .header__title{
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 15%;
+    padding-top: 21%;
 }
 
 .header__catchphrase{
@@ -50,6 +50,41 @@ hr {
     text-decoration: none;
     padding: 15px 15px;
     cursor: pointer;
+}
+
+.faded__text {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#header__nav {
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#header__nav__title {
+    display:flex;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#header__nav__links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+#header__nav li a {
+    text-decoration: none;
+    margin: 0 10px;
 }
 
 #header__title__text{
