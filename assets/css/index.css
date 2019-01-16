@@ -89,6 +89,7 @@ hr {
 
 #header__title__text{
     color: white;
+    text-transform: uppercase;
 }
 
 #header__catchphrase__text {
