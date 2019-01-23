@@ -16,6 +16,11 @@ h2 {
   margin: 0;
 }
 
+section {
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
 hr {
   width: 4%;
   border: 1px solid white;
