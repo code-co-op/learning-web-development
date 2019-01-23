@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -6,6 +10,10 @@ h1 {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
+}
+
+h2 {
+  margin: 0;
 }
 
 hr {
@@ -124,6 +132,16 @@ hr {
   font-size: calc(10px + 2vmin);
   color: white;
   font-family: Montserrat, sans-serif;
+}
+
+#about {
+  height: 100vh;
+  background-color: pink;
+}
+
+#contact-us {
+  height: 100vh;
+  background-color: orange;
 }
 
 .testimonials__faces {
