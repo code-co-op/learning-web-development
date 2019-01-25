@@ -74,12 +74,25 @@ hr {
   text-decoration: none;
   align-items: center;
   margin-left: 10px;
+  transition: 0.3s;
+}
+
+#header__nav__title:hover {
+  color: white;
 }
 
 #header__nav__links {
   display: flex;
   list-style: none;
   padding: 0;
+}
+
+.header__nav__link {
+  transition: 0.3s;
+}
+
+.header__nav__link:hover {
+  color: white;
 }
 
 #header__nav li a {
