@@ -119,15 +119,11 @@ hr {
   justify-content: center;
 }
 
-#testimonials > p {
+.testimonials__text > p {
   text-align: center;
-  font-size: 30px;
+  font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.testimonial-quote {
-  font-family: 'Archivo Narrow', sans-serif;
-  font-size: 120px;
+  font-family: Montserrat, sans-serif;
 }
 
 .testimonials__faces {
@@ -135,5 +131,29 @@ hr {
     width: 10vh;
     border-radius: 50%;
     border: 1px solid white;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px rgba(7, 4, 4, 0.2);
+}
+
+.testimonials__text {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+#testimonial__header {
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 12vh;
+}
+#testimonial__header__1 {
+  font-size:35px;
+  margin:0;
+  font-weight: 100;
+}
+
+#testimonial__header__2 {
+  font-size:20px;
+  margin:0;
+  font-weight: 100;
+
 }
