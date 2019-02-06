@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <div class="header__title container">
         <h1 id="header__title__text">Code Co-Op</h1>
       </div>
@@ -24,19 +24,31 @@
       <nav id="header__nav">
         <a class="faded__text" id="header__nav__title" href="#">Code Co-Op</a>
           <ul id="header__nav__links">
-            <li><a href="index.html" class="faded__text header__nav__link" title="Home page">Home</a></li>
-            <li><a href="about.html" class="faded__text header__nav__link" title="About page and what we do">About</a></li>
-            <li><a href="contact.html" class="faded__text header__nav__link" title="Contact page with contact details">Contact Us</a></li>
+            <li><a href="#header" class="faded__text header__nav__link" title="Home page">Home</a></li>
+            <li><a href="#about" class="faded__text header__nav__link" title="About page and what we do">About</a></li>
+            <li><a href="#contact-us" class="faded__text header__nav__link" title="Contact page with contact details">Contact Us</a></li>
+            <li><a href="#testimonials" class="faded__text header__nav__link" title="Testimonials about Code Co-Op">Testimonials</a></li>
           </ul>
       </nav>
-      <section>
-        <article>
-          <h2>This could be an article header.</h2>
+
+      <section id="about">
+        <header>
+          <h2>About</h2>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed nostrum obcaecati molestias quaerat, ea recusandae explicabo ipsa accusantium fuga qui dicta atque nulla voluptatem earum, repellat vero numquam sunt similique.</p>
-        </article>
-        <aside>
-          <p>This is an aside placeholder.</p>
-        </aside>
+        </header>
+        <main>
+          <p>This is a placeholder.</p>
+        </main>
+      </section>
+
+      <section id="contact-us">
+        <header>
+          <h2>Contact Us</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed nostrum obcaecati molestias quaerat, ea recusandae explicabo ipsa accusantium fuga qui dicta atque nulla voluptatem earum, repellat vero numquam sunt similique.</p>
+        </header>
+        <main>
+          <p>This is a placeholder.</p>
+        </main>
       </section>
 
       <article id="testimonials">
