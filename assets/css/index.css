@@ -164,6 +164,7 @@ hr {
   padding: 0 5%;
   width: 100%;
   text-align: center;
+  margin-left: 0;
 }
 
 #testimonial__header {
@@ -203,3 +204,10 @@ hr {
   position: absolute;
   width: 15%;
 }
+
+#testimonial__v__line {
+  width:1px;
+  height:50%;
+  background-color:white;
+  margin-left: 20vw;
+  }
