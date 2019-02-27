@@ -69,6 +69,33 @@ hr {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.about__main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 100px;
+}
+
+.about__main__container {
+  width: 200px;
+  text-align: center;
+}
+
+.meetups__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.meetups__container__image {
+  width: 100%;
+}
+
+#meetups {
+  padding: 10px;
+  background-color: lightgreen;
+}
+
 #header__nav {
   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
   display: flex;
@@ -212,20 +239,8 @@ hr {
   margin-left: 20vw;
   }
 
-  .about__main {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 0 100px;
+  @media only screen and (max-width: 1100px) {
+    .about__main__container {
+      flex-basis: 50%;
+    }
   }
-  
-  .about__main__container {
-    width: 200px;
-    text-align: center;
-  }
-
-@media only screen and (max-width: 1100px) {
-  .about__main__container{
-    flex-basis: 50%;
-  }
-}
