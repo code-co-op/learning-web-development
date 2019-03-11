@@ -184,6 +184,18 @@ hr {
     box-shadow: 0px 0px 5px rgba(7, 4, 4, 0.2);
 }
 
+.face__focus__1 {
+opacity: 1;
+}
+
+.face__focus__2 {
+opacity: 0.5;
+}
+
+.face__focus__3 {
+opacity: 0.1;
+}
+
 .testimonials__text {
   color: white;
   font-size: 20px;
