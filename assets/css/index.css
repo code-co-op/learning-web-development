@@ -113,6 +113,28 @@ hr {
   top: 0;
 }
 
+.opaque__nav {
+  background-color: white;
+  transition: background-color 0.3s linear;
+}
+
+.opaque__nav > ul > li > .header__nav__link {
+  color: #222;
+}
+
+.opaque__nav > ul > li > .header__nav__link:hover {
+  color: #0073c4;
+}
+
+.opaque__nav > #header__nav__title {
+  font-size: 14px;
+  color: #0073c4;
+}
+
+.opaque__nav > #header__nav__title:hover {
+  color: #005693;
+}
+
 #header__nav__title {
   display:flex;
   text-decoration: none;
