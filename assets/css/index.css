@@ -111,6 +111,7 @@ hr {
   width: 100%;
   text-transform: uppercase;
   top: 0;
+  z-index: 1;
 }
 
 .opaque__nav {
