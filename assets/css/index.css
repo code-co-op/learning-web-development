@@ -166,6 +166,24 @@ hr {
   color: white;
 }
 
+#header__nav__button {
+  padding: 6px 10px;
+  margin: 8px 15px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: none;
+}
+
+.header__nav__button__span {
+  background-color: #888;
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  margin: 4px;
+}
+
 #header__nav li a {
   text-decoration: none;
   margin: 0 10px;
@@ -279,40 +297,47 @@ opacity: 0.1;
   height:50%;
   background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1));
   margin-left: 20vw;
+}
+
+@media only screen and (max-width: 1100px) {
+  .about__main__container {
+    flex-basis: 50%;
+  }
+  #about {
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .about__main__container {
+    flex-basis: 50%;
+  }
+  #about {
+    height: 120vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about__main__container {
+    flex-basis: 100%;
+  }
+  #about {
+    height: 180vh;
+  }
+  #header__nav__button {
+    display: block;
   }
 
-  @media only screen and (max-width: 1100px) {
-    .about__main__container {
-      flex-basis: 50%;
-    }
-    #about {
-      height: 90vh;
-    }
+  #header__nav__links {
+    display: none;
   }
+}
 
-  @media only screen and (max-width: 992px) {
-    .about__main__container {
-      flex-basis: 50%;
-    }
-    #about {
-      height: 120vh;
-    }
+@media only screen and (max-width: 400px) {
+  .about__main__container {
+    flex-basis: 100%;
   }
-
-  @media only screen and (max-width: 700px) {
-    .about__main__container {
-      flex-basis: 100%;
-    }
-    #about {
-      height: 180vh;
-    }
+  #about {
+    height: 310vh;
   }
-
-  @media only screen and (max-width: 400px) {
-    .about__main__container {
-      flex-basis: 100%;
-    }
-    #about {
-      height: 310vh;
-    }
-  }
+}
