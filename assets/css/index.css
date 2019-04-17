@@ -127,6 +127,10 @@ hr {
   color: #0073c4;
 }
 
+.header__nav__link--active {
+  color: #0073c4 !important;
+}
+
 .opaque__nav > #header__nav__title {
   font-size: 14px;
   color: #0073c4;
