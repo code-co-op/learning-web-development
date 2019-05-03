@@ -29,4 +29,8 @@ $(document).ready(function() {
       manageDynamicNavigationBarColors();
       manageDynamicLinkColors();
     });
+
+    $('#header__nav__button').on("click", function(){
+        $('#header__nav__links').toggleClass("display");
+    })
 })

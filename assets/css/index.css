@@ -42,6 +42,10 @@ hr {
   justify-content: center;
 }
 
+.display {
+  display: flex !important;
+}
+
 .header__title {
   align-items: center;
   flex-wrap: wrap;
@@ -323,15 +327,49 @@ opacity: 0.1;
   .about__main__container {
     flex-basis: 100%;
   }
+
   #about {
     height: 180vh;
   }
+
   #header__nav__button {
     display: block;
   }
 
+  #header__nav {
+    background-color: white;
+  }
+
+  #header__nav__title {
+    color: #0073c4;
+  }
+  
+  #header__nav__title:hover {
+    color: #005693;
+  }
+
   #header__nav__links {
     display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    order: 3;
+    position: absolute;
+    top: 50px; /* hardcoded value will be changed! */
+    width: 100%;
+    background-color: white;
+    margin: 0;
+  }
+
+  #header__nav__links > li {
+    padding: 5px;
+  }
+
+  #header__nav__links > li > a {
+    color: black;
+  }
+  
+  #header__nav__links > li > a:hover {
+    color: #0073c4;
   }
 }
 
