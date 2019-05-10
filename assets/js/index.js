@@ -31,6 +31,7 @@ $(document).ready(function() {
     });
 
     $('#header__nav__button').on("click", function(){
-        $('#header__nav__links').toggleClass("display");
+      $('#header__nav__links').slideToggle("slow", function () {
+      });
     })
 })
