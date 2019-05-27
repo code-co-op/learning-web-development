@@ -64,6 +64,9 @@ $(document).ready(function() {
         function updateTestimonial(testimonial) {
             $('#testimonial__quote').text(testimonial['testimonial']);
             $('#testimonial__footer').text('- ' + testimonial['name']);
+            $(testimonial['id']).addClass('face__focus__1');
+            $(testimonial['id']).removeClass('face__focus__2');
+            $(testimonial['id']).removeClass('face__focus__3');
         }
 
         updateTestimonial(defaultTestimonial);
