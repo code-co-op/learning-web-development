@@ -29,4 +29,51 @@ $(document).ready(function() {
       manageDynamicNavigationBarColors();
       manageDynamicLinkColors();
     });
-})
+
+    function setUpTestimonials() {
+        var testimonials = [
+            {
+              'id': '#jenny-smiths__image',
+              'testimonial': 'I have no regrets! It fits my needs perfectly.',
+              'name': 'Jenny Smiths'
+            },
+            {
+              'id': '#andrew-beattie__image',
+              'testimonial': '“Just eh... the best place to learn to code. I have been.”',
+              'name': 'Andrew Beattie'
+            },
+            {
+              'id': '#mark-finch__image',
+              'testimonial': 'I don\'t know what else to say.',
+              'name': 'Mark Finch'
+            },
+            {
+              'id': '#ayesha-couch__image',
+              'testimonial': 'I just can\'t get enough of Code Co-Op. I want to get a T-Shirt with Code Co-Op on it so I can show it off to everyone.',
+              'name': 'Ayesha Couch'
+            },
+            {
+              'id': '#sheep__image',
+              'testimonial': 'Baa. Baa. Baa.',
+              'name': 'Sheep'
+            }
+        ];
+
+        var defaultTestimonial = testimonials[2];
+
+        function updateTestimonial(testimonial) {
+            $('#testimonial__quote').text(testimonial['testimonial']);
+            $('#testimonial__footer').text('- ' + testimonial['name']);
+        }
+
+        updateTestimonial(defaultTestimonial);
+
+        testimonials.forEach(function (testimonial) {
+            $(testimonial['id']).click(function () {
+                updateTestimonial(testimonial);
+            });
+        });
+    }
+
+    setUpTestimonials();
+});
