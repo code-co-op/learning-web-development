@@ -39,7 +39,7 @@ $(document).ready(function() {
             },
             {
               'id': '#andrew-beattie__image',
-              'testimonial': '“Just eh... the best place to learn to code. I have been.”',
+              'testimonial': 'Just eh... the best place to learn to code. I have been.',
               'name': 'Andrew Beattie'
             },
             {
@@ -62,7 +62,7 @@ $(document).ready(function() {
         var defaultTestimonial = testimonials[2];
 
         function updateTestimonial(testimonial) {
-            $('#testimonial__quote').text(testimonial['testimonial']);
+            $('#testimonial__quote').text("“" + testimonial['testimonial'] + "”");
             $('#testimonial__footer').text('- ' + testimonial['name']);
         }
 
