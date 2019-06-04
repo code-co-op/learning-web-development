@@ -234,16 +234,12 @@ hr {
     box-shadow: 0px 0px 5px rgba(7, 4, 4, 0.2);
 }
 
-.face__focus__1 {
-opacity: 1;
+.faces__inactive {
+  opacity: 0.25;
 }
 
-.face__focus__2 {
-opacity: 0.5;
-}
-
-.face__focus__3 {
-opacity: 0.1;
+.faces__active {
+  opacity: 1 !important;
 }
 
 #testimonials__text {
