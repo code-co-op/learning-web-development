@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-GB">
   <head>
     <meta charset="utf-8">
     <title>Code Coop</title>
+    <meta name="author" content="co-authored by Phil Broderick, Andrew Beattie, Artemiy Knipe and Barry Gallagher">
+    <meta name="description" content="A website created by a group of people from the Belfast code coop. This site is used to apply the teachings and examples from the MDN Learn web development tutorials.">
+    
     <link rel="stylesheet" href="assets/css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="assets/js/index.js"></script>
@@ -101,33 +105,29 @@
       <section id="testimonials" class="full-height-background">
         <nav id="testimonials__nav">
           <figure>
-            <img class="testimonials__faces face__focus__3" src="./assets/images/testimonialpics/pic1.jpeg" alt="Jenny Smiths testimonial">
+            <img id="jenny-smiths__image" class="testimonials__faces face__focus__3" src="./assets/images/testimonialpics/pic1.jpeg" alt="Jenny Smiths testimonial">
           </figure>
           <figure>
-            <img class="testimonials__faces face__focus__2" src="./assets/images/testimonialpics/pic2.jpeg" alt="Andrew Beattie testimonial">
+            <img id="andrew-beattie__image" class="testimonials__faces face__focus__2" src="./assets/images/testimonialpics/pic2.jpeg" alt="Andrew Beattie testimonial">
           </figure>
           <figure>
-            <img class="testimonials__faces face__focus__1" src="./assets/images/testimonialpics/pic3.jpeg" alt="Mark Finch testimonial">
+            <img id="mark-finch__image" class="testimonials__faces face__focus__1" src="./assets/images/testimonialpics/pic3.jpeg" alt="Mark Finch testimonial">
           </figure>
           <figure>
-            <img class="testimonials__faces face__focus__2" src="./assets/images/testimonialpics/pic4.jpeg" alt="Ayesha Couch testimonial">
+            <img id="ayesha-couch__image" class="testimonials__faces face__focus__2" src="./assets/images/testimonialpics/pic4.jpeg" alt="Ayesha Couch testimonial">
           </figure>
           <figure>
-            <img class="testimonials__faces face__focus__3" src="./assets/images/testimonialpics/pic5.jpeg" alt="The sheep testimonial">
+            <img id="sheep__image" class="testimonials__faces face__focus__3" src="./assets/images/testimonialpics/pic5.jpeg" alt="The sheep testimonial">
           </figure>
         </nav>
         <div id="testimonial__v__line"></div>
-        <section class="testimonials__text">
+        <section id="testimonials__text">
           <hgroup id="testimonial__header">
           <h2 id="testimonial__header__1">Our members</h2>
           <h3 id="testimonial__header__2"><sup>Testimonials</sup></h3>
           </hgroup>
-          <p>
-          “Just eh... the best place to learn to code. I still haven't been.”
-          </p>
-          <address id="testimonial__footer">
-            - Jenny Smiths
-          </address>
+          <p id="testimonial__quote"></p>
+          <address id="testimonial__footer"></address>
         </section>
       </section>
     </main>

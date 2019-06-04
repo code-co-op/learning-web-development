@@ -207,7 +207,7 @@ hr {
   justify-content: center;
 }
 
-.testimonials__text > p {
+#testimonials__text > p {
   text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -245,10 +245,10 @@ opacity: 0.5;
 opacity: 0.1;
 }
 
-.testimonials__text {
+#testimonials__text {
   color: white;
   font-size: 20px;
-  margin: 0px 20%;
+  margin: 0px 25vw;
   padding: 0 5%;
   width: 100%;
   text-align: center;
@@ -285,29 +285,93 @@ opacity: 0.1;
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 100%;
   justify-content: center;
   left: 0;
-  padding: 0 5%;
-  position: absolute;
-  width: 15%;
+  padding: 0 5vw;
+  width: 15vw;
 }
 
 #testimonial__v__line {
   width:1px;
   height:50%;
   background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1));
-  margin-left: 20vw;
+  margin: 0;
 }
 
 @media only screen and (max-width: 1100px) {
   .about__main__container {
     flex-basis: 50%;
   }
+
   #about {
     height: 90vh;
   }
-}
+
+  #testimonials {
+    background-image: linear-gradient( rgba(0, 115, 196, 0.85), rgba(0, 115, 196, 0.85) ), url('../images/testimonialpics/testimonials.jpg');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+
+  #testimonials__text {
+    margin: 0;
+    flex-grow: 9;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #testimonials__text > p {
+    font-size: 3vw;
+  }
+
+  #testimonial__header {
+    height: 30vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #testimonial__header__1 {
+    font-size: 5vw;
+  }
+
+
+  #testimonial__header__2 {
+    font-size: 4vw;
+    font-weight: 300;
+  }
+
+
+  #testimonial__quote {
+    font-weight: 300;
+  }
+
+  #testimonial__footer {
+    font-size: 3vw;
+    font-weight: 300;
+  }
+
+
+  #testimonials__nav {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 0;
+  }
+
+  #testimonial__v__line {
+    height: 1px;
+    width: 90%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1));
+    margin: 0;
+  }
+
 
 @media only screen and (max-width: 992px) {
   .about__main__container {
@@ -333,7 +397,7 @@ opacity: 0.1;
   #about {
     height: 180vh;
   }
-
+  
   #header__nav__button {
     display: block;
   }
