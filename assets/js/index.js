@@ -62,11 +62,10 @@ $(document).ready(function() {
         var defaultTestimonial = testimonials[2];
 
         function updateTestimonial(testimonial) {
+            $('.faces__active').removeClass('faces__active');
             $('#testimonial__quote').text("“" + testimonial['testimonial'] + "”");
             $('#testimonial__footer').text('- ' + testimonial['name']);
-            $(testimonial['id']).addClass('face__focus__1');
-            $(testimonial['id']).removeClass('face__focus__2');
-            $(testimonial['id']).removeClass('face__focus__3');
+            $(testimonial['id']).addClass('faces__active');
         }
 
         updateTestimonial(defaultTestimonial);
