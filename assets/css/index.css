@@ -234,6 +234,10 @@ hr {
     box-shadow: 0px 0px 5px rgba(7, 4, 4, 0.2);
     opacity: 0.25;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> some minor changes, got rid of the 'important' style, done away with face__inactive
 
 .faces__active {
   opacity: 1;
