@@ -30,6 +30,13 @@ $(document).ready(function() {
       manageDynamicLinkColors();
     });
 
+
+    $('#header__nav__button').on("click", function(){
+      $('#header__nav__links').slideToggle("slow", function () {
+      });
+    })
+})
+
     function setUpTestimonials() {
         var testimonials = [
             {
