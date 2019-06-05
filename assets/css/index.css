@@ -232,14 +232,12 @@ hr {
     border-radius: 50%;
     border: 1px solid white;
     box-shadow: 0px 0px 5px rgba(7, 4, 4, 0.2);
+    opacity: 0.25;
 }
 
-.faces__inactive {
-  opacity: 0.25;
-}
 
 .faces__active {
-  opacity: 1 !important;
+  opacity: 1;
 }
 
 #testimonials__text {
