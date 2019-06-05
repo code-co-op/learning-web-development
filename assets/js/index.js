@@ -69,8 +69,26 @@ $(document).ready(function() {
         var defaultTestimonial = testimonials[2];
 
         function updateTestimonial(testimonial) {
+            $('.faces__active').removeClass('faces__active');
+<<<<<<< HEAD
+<<<<<<< HEAD
             $('#testimonial__quote').text("“" + testimonial['testimonial'] + "”");
             $('#testimonial__footer').text('- ' + testimonial['name']);
+<<<<<<< HEAD
+            $(testimonial['id']).addClass('faces__active');
+=======
+            $(testimonial['id']).addClass('face__focus__1');
+            $(testimonial['id']).removeClass('face__focus__2');
+            $(testimonial['id']).removeClass('face__focus__3');
+>>>>>>> Got images to show without opacity - halfway done
+=======
+            $('#testimonial__quote').text(testimonial['testimonial']);
+=======
+            $('#testimonial__quote').text("“" + testimonial['testimonial'] + "”");
+>>>>>>> some minor changes, got rid of the 'important' style, done away with face__inactive
+            $('#testimonial__footer').text('- ' + testimonial['name']);
+            $(testimonial['id']).addClass('faces__active');
+>>>>>>> set images to toggle opacity on/off when clicking between them.
         }
 
         updateTestimonial(defaultTestimonial);
