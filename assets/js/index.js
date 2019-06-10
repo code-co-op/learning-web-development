@@ -35,7 +35,6 @@ $(document).ready(function() {
       $('#header__nav__links').slideToggle("slow", function () {
       });
     })
-})
 
     function setUpTestimonials() {
         var testimonials = [
@@ -85,3 +84,4 @@ $(document).ready(function() {
     }
 
     setUpTestimonials();
+});
