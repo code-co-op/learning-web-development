@@ -222,9 +222,27 @@ hr {
 
 #contact-us {
   height: 100vh;
-  background-color: orange;
+  background-color: white;
 }
 
+.contact-us__icon {
+    width: 55px;
+    height: 55px;
+}
+
+#contact-us__iframe {
+  border: 0;
+  height: 300px;
+  width: 500px;
+}
+
+.contact-us__container {
+
+}
+
+.contact-us__container__image {
+  margin: 0px 15px;
+}
 .testimonials__faces {
     height: 10vh;
     width: 10vh;

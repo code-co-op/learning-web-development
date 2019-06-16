@@ -84,4 +84,6 @@ $(document).ready(function() {
     }
 
     setUpTestimonials();
+
+    $('#contact-us__iframe').attr('src', "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2311.6336498243927!2d-5.9428546839875915!3d54.59282908831475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486108f686ba0491%3A0xf206df9d70d81d76!2sFarset+Labs!5e0!3m2!1sen!2suk!4v1560701414902!5m2!1sen!2suk");
 });
