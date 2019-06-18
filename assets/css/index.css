@@ -60,13 +60,19 @@ hr {
 }
 
 .header__mainbutton__style {
-  background: #a6bce0;
+  background-color: #a6bce0;
   border: 0;
   border-radius: 10px;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   padding: 15px 15px;
   cursor: pointer;
+  color: black;
+  transition: background-color 0.2s linear;
+}
+
+.header__mainbutton__style:hover {
+  background-color: #95a8c6;
 }
 
 .faded__text {
